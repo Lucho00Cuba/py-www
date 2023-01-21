@@ -22,4 +22,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: 0lucho0/${{ github.repository }}:${{ github.sha }}
+          tags: 0lucho0/py-www:${{ github.sha }}
